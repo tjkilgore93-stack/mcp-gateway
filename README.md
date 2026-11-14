@@ -14,13 +14,11 @@ A fork of Docker's `mcp-gateway`. The upstream repo is the CLI plugin behind Doc
 
 ## Roadmap
 
-The goal is a starter kit that ships with:
+This fork's goal was a zero-trust starter kit: bearer auth, Postgres RLS, and a `docker compose up` quickstart. That kit now lives in its own repo, built from scratch:
 
-- **Bearer token auth** in front of the gateway
-- **Postgres row-level security (RLS)** so each client only sees its own rows
-- **`docker compose up` quickstart** — working endpoint in under a minute
+- [hyperfya-zero-trust-mcp-kit](https://github.com/tjkilgore93-stack/hyperfya-zero-trust-mcp-kit) — secure MCP server starter: bearer auth + Postgres RLS + Docker
 
-Nothing in that list exists yet. I'll build it against this base and update the README as it lands.
+This repo stays as the upstream fork it is.
 
 ## Running what exists
 
